@@ -1,3 +1,4 @@
+#Ovdje simuliramo 10000 šetnji uz pomoć bacanja novčića i računamo relativnu frekvenciju pozicije 0
 # Funkcija za izračun relativne frekvencije da će osoba biti na određenoj poziciji
 rel_frekvencija_pozicije <- function(koraci, ciljana_pozicija, broj_simulacija) {
   # Inicijalizacija brojača za odabranu poziciju
