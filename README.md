@@ -1,7 +1,6 @@
-# Mostart1
-# Funkcija za simulaciju svih slučajnih šetnji i izračun frekvencija pozicija
+# Funkcija za simulaciju 20 slučajnih šetnji, izračun frekvencija pozicija i prikaz dijagrama pozicija koje smo dobili simulacijom
 simulacija_slucajne_setnje <- function(koraci, broj_setnji) {
-  # Inicijalizacija matrice za pohranu svih šetnji
+  # Pohrana konačnih pozicija svih šetnji
     final_pozicija <- numeric(broj_setnji)	
   # Simulacija svih šetnji
   for (setnja in 1:broj_setnji) {
